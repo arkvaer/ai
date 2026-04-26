@@ -1,10 +1,10 @@
-package com.arkvaer.ai;
+package com.arkvaer.chat;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AiApplicationTests {
+class ChatApplicationTests {
 
     @Test
     void contextLoads() {
