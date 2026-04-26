@@ -25,8 +25,8 @@ public class SaaLLMConfig
 
     /**
      * 知识出处：
-     * @param dashscopeChatModel
-     * @return
+     * @param dashscopeChatModel  dashscopeChatModel
+     * @return ChatClient
      */
     @Bean
     public ChatClient chatClient(ChatModel dashscopeChatModel)
