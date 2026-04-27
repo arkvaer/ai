@@ -24,6 +24,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>chat</module>
+        <module>ollama</module>
     </modules>
 
     <dependencyManagement>
