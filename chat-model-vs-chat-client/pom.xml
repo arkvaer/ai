@@ -7,10 +7,10 @@
         <artifactId>ai</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>ollama</artifactId>
+    <artifactId>chat-model-vs-chat-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ollama</name>
-    <description>ollama</description>
+    <name>chat-model-vs-chat-client</name>
+    <description>chat-model-vs-chat-client</description>
     <url/>
     <licenses>
         <license/>
@@ -31,31 +31,19 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.ai</groupId>
-                <artifactId>spring-ai-bom</artifactId>
-                <version>${spring-ai.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-model-ollama</artifactId>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!-- 明确指定主类，避免插件找不到 -->
+                    <mainClass>com.arkvaer.chatmodelvschatclient.ChatModelVsChatClientApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
 
 </project>

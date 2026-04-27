@@ -7,7 +7,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/chat/pom.xml" />
         <option value="$PROJECT_DIR$/ollama/pom.xml" />
+        <option value="$PROJECT_DIR$/chat-model-vs-chat-client/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/chat-mode-chat-client/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="25" project-jdk-type="JavaSDK">
