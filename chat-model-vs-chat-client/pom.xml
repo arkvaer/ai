@@ -12,18 +12,6 @@
     <name>chat-model-vs-chat-client</name>
     <description>chat-model-vs-chat-client</description>
     <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
     <properties>
         <java.version>25</java.version>
         <maven.compiler.source>25</maven.compiler.source>
@@ -31,19 +19,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <!-- 明确指定主类，避免插件找不到 -->
-                    <mainClass>com.arkvaer.chatmodelvschatclient.ChatModelVsChatClientApplication</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 
 </project>
