@@ -2,6 +2,7 @@ package com.arkvaer.chat.controller;
 
 import jakarta.annotation.Resource;
 import org.springframework.ai.chat.model.ChatModel;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,10 +18,12 @@ import reactor.core.publisher.Flux;
 @RequestMapping("/chat")
 public class ChatController {
 
-    @Resource //支持自动注入
-    private ChatModel dashScopeChatModel;
+    private final ChatModel dashScopeChatModel;
 
-    static ScopedValue<String> scopedValue = ScopedValue.newInstance();
+
+    public ChatController(ChatModel dashScopeChatModel) {
+        this.dashScopeChatModel = dashScopeChatModel;
+    }
 
     /**
      * http://localhost:8003/chatclientv2/dochat
