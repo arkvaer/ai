@@ -12,6 +12,7 @@ target/
 *.iws
 *.iml
 *.ipr
+**/rebel.xml
 
 ### Eclipse ###
 .apt_generated
@@ -34,7 +35,7 @@ build/
 
 ### VS Code ###
 .vscode/
-/src/main/resources/rebel.xml
 
 ### Mac OS ###
 .DS_Store
+!/.idea/httpRequests/
