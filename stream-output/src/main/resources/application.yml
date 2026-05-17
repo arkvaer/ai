@@ -1,0 +1,12 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /so
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: stream-output
