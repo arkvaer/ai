@@ -10,3 +10,8 @@ server:
 spring:
   application:
     name: stream-output
+  thymeleaf:
+    prefix: classpath:/templates/
+    cache: false
+    encoding: UTF-8
+    mode: HTML
