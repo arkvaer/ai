@@ -1,4 +1,4 @@
-package com.arkvaer.streamoutput.controller;
+package com.arkvaer.prompt.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

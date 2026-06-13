@@ -28,6 +28,7 @@
         <module>ollama</module>
         <module>chat-model-vs-chat-client</module>
         <module>stream-output</module>
+        <module>prompt</module>
     </modules>
 
     <dependencyManagement>

@@ -1,4 +1,4 @@
-package com.arkvaer.streamoutput.controller;
+package com.arkvaer.prompt.controller;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.model.ChatModel;

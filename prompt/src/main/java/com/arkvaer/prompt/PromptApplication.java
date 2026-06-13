@@ -1,13 +1,13 @@
-package com.arkvaer.streamoutput;
+package com.arkvaer.prompt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StreamOutputApplication {
+public class PromptApplication {
 
     static void main(String[] args) {
-        SpringApplication.run(StreamOutputApplication.class, args);
+        SpringApplication.run(PromptApplication.class, args);
     }
 
 }

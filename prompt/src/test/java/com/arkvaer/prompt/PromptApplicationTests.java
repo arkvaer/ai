@@ -1,10 +1,10 @@
-package com.arkvaer.streamoutput;
+package com.arkvaer.prompt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StreamOutputApplicationTests {
+class PromptApplicationTests {
 
     @Test
     void contextLoads() {

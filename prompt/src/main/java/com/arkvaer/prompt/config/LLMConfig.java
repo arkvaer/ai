@@ -1,4 +1,4 @@
-package com.arkvaer.streamoutput.config;
+package com.arkvaer.prompt.config;
 
 import com.alibaba.cloud.ai.dashscope.api.DashScopeApi;
 import com.alibaba.cloud.ai.dashscope.chat.DashScopeChatModel;

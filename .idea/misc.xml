@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/chat-model-vs-chat-client/pom.xml" />
         <option value="$PROJECT_DIR$/stream-output/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/prompt/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
